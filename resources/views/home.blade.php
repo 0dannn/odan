@@ -6,24 +6,24 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6">
-        <h1 class="display-4 fw-bold mb-4 scroll-animate">Learn Skills That Matter</h1>
-        <p class="lead mb-4 scroll-animate delay-1">Join thousands of students learning cutting-edge technologies and building real-world projects. Start your journey today and transform your career.</p>
+        <h1 class="display-4 fw-bold mb-4 scroll-animate">Pelajari Keterampilan yang Penting</h1>
+        <p class="lead mb-4 scroll-animate delay-1">Bergabunglah dengan ribuan pelajar yang mempelajari teknologi mutakhir dan membangun proyek dunia nyata. Mulailah perjalananmu hari ini dan ubah kariermu.</p>
         <div class="d-flex gap-3 flex-wrap scroll-animate delay-2">
-          <a class="btn btn-primary btn-lg" href="/portfolio">Browse Courses</a>
-          <a class="btn btn-outline-primary btn-lg" href="/about">Learn More</a>
+          <a class="btn btn-primary btn-lg" href="/portfolio">Jelajahi Kursus</a>
+          <a class="btn btn-outline-primary btn-lg" href="/about">Pelajari lebih lanjut</a>
         </div>
         <div class="mt-4 d-flex gap-4 scroll-animate delay-3">
           <div>
-            <h3 class="fw-bold mb-0">10K+</h3>
-            <p class="text-muted mb-0">Students</p>
+            <h3 class="fw-bold mb-0">800+</h3>
+            <p class="text-muted mb-0">Pelajar</p>
           </div>
           <div>
-            <h3 class="fw-bold mb-0">50+</h3>
+            <h3 class="fw-bold mb-0">20+</h3>
             <p class="text-muted mb-0">Courses</p>
           </div>
           <div>
             <h3 class="fw-bold mb-0">98%</h3>
-            <p class="text-muted mb-0">Satisfaction</p>
+            <p class="text-muted mb-0">Kepuasan</p>
           </div>
         </div>
       </div>
@@ -40,8 +40,8 @@
 <section class="featured-courses py-5 bg-light">
   <div class="container">
     <div class="text-center mb-5">
-      <h2 class="display-5 fw-bold mb-3 scroll-animate">Featured Courses</h2>
-      <p class="lead text-muted scroll-animate delay-1">Hand-picked courses to get you started on your learning journey</p>
+      <h2 class="display-5 fw-bold mb-3 scroll-animate">Kursus Unggulan</h2>
+      <p class="lead text-muted scroll-animate delay-1">Kursus pilihan khusus untuk membantumu memulai perjalanan belajar.</p>
     </div>
     @php
       $sampleCourses = [
@@ -141,7 +141,7 @@
       @endforeach
     </div>
     <div class="text-center mt-5">
-      <a href="/portfolio" class="btn btn-outline-primary btn-lg scroll-animate delay-4">View All Courses</a>
+      <a href="/portfolio" class="btn btn-outline-primary btn-lg scroll-animate delay-4">Lihat Semua Kursus</a>
     </div>
   </div>
 </section>
@@ -150,8 +150,8 @@
 <section class="why-choose-us py-5">
   <div class="container">
     <div class="text-center mb-5">
-      <h2 class="display-5 fw-bold mb-3 scroll-animate">Why Choose Us?</h2>
-      <p class="lead text-muted scroll-animate delay-1">We're committed to your success</p>
+      <h2 class="display-5 fw-bold mb-3 scroll-animate">Mengapa Memilih Kami?</h2>
+      <p class="lead text-muted scroll-animate delay-1">Kami berkomitmen untuk kesuksesan Anda.</p>
     </div>
     <div class="row g-4">
       <div class="col-md-4">
@@ -159,8 +159,8 @@
           <div class="mb-3">
             <i class="bi bi-trophy-fill" style="font-size: 3rem; color: var(--primary-color);"></i>
           </div>
-          <h4 class="fw-bold mb-3">Expert Instructors</h4>
-          <p class="text-muted">Learn from industry professionals with years of real-world experience and proven track records.</p>
+          <h4 class="fw-bold mb-3">Instruktur Profesional</h4>
+          <p class="text-muted">Belajar dari profesional dengan pengalaman dunia nyata dan catatan kesuksesan yang terbukti.</p>
         </div>
       </div>
       <div class="col-md-4">
@@ -168,8 +168,8 @@
           <div class="mb-3">
             <i class="bi bi-clock-history" style="font-size: 3rem; color: var(--primary-color);"></i>
           </div>
-          <h4 class="fw-bold mb-3">Lifetime Access</h4>
-          <p class="text-muted">Get lifetime access to all course materials, updates, and a supportive community of learners.</p>
+          <h4 class="fw-bold mb-3">Akses Selamanya</h4>
+          <p class="text-muted">Dapatkan akses selamanya ke semua materi kursus, pembaruan, dan komunitas pelajar yang mendukung.</p>
         </div>
       </div>
       <div class="col-md-4">
@@ -178,7 +178,7 @@
             <i class="bi bi-headset" style="font-size: 3rem; color: var(--primary-color);"></i>
           </div>
           <h4 class="fw-bold mb-3">24/7 Support</h4>
-          <p class="text-muted">Get help whenever you need it. Our support team is always ready to assist you on your learning journey.</p>
+          <p class="text-muted">Dapatkan bantuan kapan saja Anda butuh. Tim dukungan kami siap membantu Anda dalam perjalanan belajar.</p>
         </div>
       </div>
     </div>
@@ -269,11 +269,11 @@
 <!-- CTA Section -->
 <section class="cta-section py-5 bg-primary text-white">
   <div class="container text-center">
-    <h2 class="display-5 fw-bold mb-3 scroll-animate">Ready to Start Learning?</h2>
-    <p class="lead mb-4 scroll-animate delay-1">Join thousands of students and start your journey today</p>
+    <h2 class="display-5 fw-bold mb-3 scroll-animate">Siap Mulai Belajar?</h2>
+    <p class="lead mb-4 scroll-animate delay-1">Bergabunglah dengan ribuan pelajar dan mulai perjalanan belajar Anda hari ini</p>
     <div class="scroll-animate delay-2">
-      <a href="/contact" class="btn btn-light btn-lg me-2">Get Started</a>
-      <a href="/portfolio" class="btn btn-outline-light btn-lg">Browse Courses</a>
+      <a href="/contact" class="btn btn-light btn-lg me-2">Mulai Belajar</a>
+      <a href="/portfolio" class="btn btn-outline-light btn-lg">Jelajahi Kursus</a>
     </div>
   </div>
 </section>

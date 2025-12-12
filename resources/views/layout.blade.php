@@ -20,13 +20,13 @@
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/') }}">Home</a>
+          <a class="nav-link" href="{{ url('/') }}">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/portfolio') }}">Courses</a>
+          <a class="nav-link" href="{{ url('/portfolio') }}">Kursus</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/about') }}">About</a>
+          <a class="nav-link" href="{{ url('/about') }}">Tentang Kami</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
