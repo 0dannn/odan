@@ -5,26 +5,26 @@
 <section class="courses-hero py-5 mb-5">
   <div class="container">
     <div class="text-center mb-5 scroll-animate">
-      <h1 class="display-4 fw-bold mb-3">Explore Our Courses</h1>
-      <p class="lead text-muted">Discover comprehensive courses designed to advance your career</p>
+      <h1 class="display-4 fw-bold mb-3">Jelajahi Kursus Kami</h1>
+      <p class="lead text-muted">Jelajahi kursus kami yang dirancang untuk membantu Anda memajukan karir Anda</p>
     </div>
     
     <!-- Course Categories -->
     <div class="row g-3 mb-5 justify-content-center">
       <div class="col-auto">
-        <button class="btn btn-outline-primary category-filter active" data-category="all">All Courses</button>
+        <button class="btn btn-outline-primary category-filter active" data-category="all">Semua Kursus</button>
       </div>
       <div class="col-auto">
-        <button class="btn btn-outline-primary category-filter" data-category="web">Web Development</button>
+        <button class="btn btn-outline-primary category-filter" data-category="web">Pengembangan Web</button>
       </div>
       <div class="col-auto">
-        <button class="btn btn-outline-primary category-filter" data-category="backend">Backend</button>
+        <button class="btn btn-outline-primary category-filter" data-category="backend">Pengembangan Backend</button>
       </div>
       <div class="col-auto">
-        <button class="btn btn-outline-primary category-filter" data-category="mobile">Mobile</button>
+        <button class="btn btn-outline-primary category-filter" data-category="mobile">Pengembangan Mobile</button>
       </div>
       <div class="col-auto">
-        <button class="btn btn-outline-primary category-filter" data-category="design">Design</button>
+        <button class="btn btn-outline-primary category-filter" data-category="design">Desain UI/UX</button>
       </div>
     </div>
   </div>
@@ -63,7 +63,7 @@
                 </div>
               @endif
               <div class="course-overlay">
-                <div class="course-badge">Featured</div>
+                <div class="course-badge">Unggulan</div>
                 <div class="course-actions">
                   <button class="btn btn-light btn-sm" title="Add to favorites"><i class="bi bi-heart"></i></button>
                   <button class="btn btn-light btn-sm" title="Share course"><i class="bi bi-share"></i></button>
@@ -89,7 +89,7 @@
               <div class="course-footer">
                 <div class="course-instructor">
                   <div class="instructor-avatar">{{ substr($project->title, 0, 2) }}</div>
-                  <span class="instructor-name">Expert Instructor</span>
+                  <span class="instructor-name">Instruktur Profesional</span>
                 </div>
                 <div class="course-price">
                   <span class="price-current">Rp {{ number_format($price * 15000, 0, ',', '.') }}</span>
@@ -116,11 +116,11 @@
               
               <div class="course-cta">
                 <a href="{{ route('enroll.course', $project->id) }}" class="btn btn-primary w-100">
-                  <i class="bi bi-play-circle me-2"></i>Enroll Now
+                  <i class="bi bi-play-circle me-2"></i>Daftar Sekarang
                 </a>
                 @if($project->link)
                   <a href="{{ $project->link }}" class="btn btn-outline-secondary btn-sm w-100 mt-2" target="_blank" rel="noopener">
-                    <i class="bi bi-eye me-1"></i>Preview Course
+                    <i class="bi bi-eye me-1"></i>Preview Kursus
                   </a>
                 @endif
               </div>
@@ -133,7 +133,7 @@
         @php
           $sampleCourses = [
             [
-              'title' => 'Complete Web Development Bootcamp',
+              'title' => 'Bootcamp Pengembangan Web Lengkap',
               'description' => 'Learn HTML, CSS, JavaScript, React, Node.js, and more. Build 10+ real-world projects.',
               'category' => 'web',
               'level' => 'Beginner',
@@ -146,7 +146,7 @@
               'icon' => 'code-slash'
             ],
             [
-              'title' => 'Laravel & PHP Mastery',
+              'title' => 'Laravel & PHP Mahir',
               'description' => 'Master Laravel framework, build REST APIs, authentication, and deploy production apps.',
               'category' => 'backend',
               'level' => 'Intermediate',
@@ -159,7 +159,7 @@
               'icon' => 'server'
             ],
             [
-              'title' => 'React Native Mobile Development',
+              'title' => 'Pengembangan Mobile React Native',
               'description' => 'Create cross-platform mobile apps with React Native. iOS and Android deployment.',
               'category' => 'mobile',
               'level' => 'Advanced',

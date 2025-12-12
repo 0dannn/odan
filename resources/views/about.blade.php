@@ -7,22 +7,22 @@
     <div class="row align-items-center">
       <div class="col-lg-6 scroll-animate">
         <div class="about-badge mb-3">
-          <span class="badge bg-primary">About LearnHub</span>
+          <span class="badge bg-primary">Tentang LearnHub</span>
         </div>
-        <h1 class="display-4 fw-bold mb-4">Empowering Learners Worldwide</h1>
-        <p class="lead mb-4">We're on a mission to make quality education accessible to everyone. LearnHub brings together expert instructors, comprehensive courses, and a supportive community to help you achieve your learning goals.</p>
+        <h1 class="display-4 fw-bold mb-4">Mewujudkan Pelajar di Seluruh Dunia</h1>
+        <p class="lead mb-4">Kami berkomitmen untuk membuat pendidikan berkualitas terjangkau bagi semua orang. LearnHub menyatukan instruktur profesional, kursus komprehensif, dan komunitas pendukung untuk membantu Anda mencapai tujuan belajar Anda.</p>
         <div class="about-stats d-flex gap-4">
           <div>
-            <h3 class="fw-bold mb-0 text-primary">10K+</h3>
-            <p class="text-muted mb-0">Active Students</p>
+            <h3 class="fw-bold mb-0 text-primary">800+</h3>
+            <p class="text-muted mb-0">Pelajar Aktif</p>
           </div>
           <div>
-            <h3 class="fw-bold mb-0 text-primary">50+</h3>
-            <p class="text-muted mb-0">Expert Courses</p>
+            <h3 class="fw-bold mb-0 text-primary">20+</h3>
+            <p class="text-muted mb-0">Kursus Profesional</p>
           </div>
           <div>
             <h3 class="fw-bold mb-0 text-primary">98%</h3>
-            <p class="text-muted mb-0">Success Rate</p>
+            <p class="text-muted mb-0">Tingkat Keberhasilan</p>
           </div>
         </div>
       </div>
@@ -46,9 +46,9 @@
           <div class="card-icon mb-3">
             <i class="bi bi-bullseye"></i>
           </div>
-          <h3 class="fw-bold mb-3">Our Mission</h3>
-          <p class="text-muted">To democratize education by providing high-quality, accessible online courses that empower individuals to learn new skills, advance their careers, and achieve their personal and professional goals.</p>
-          <p class="text-muted">We believe that everyone deserves access to world-class education, regardless of their location, background, or financial situation.</p>
+          <h3 class="fw-bold mb-3">Misi Kami</h3>
+          <p class="text-muted">Untuk memajukan pendidikan dengan menyediakan kursus online berkualitas tinggi dan terjangkau yang memberdayakan individu untuk mempelajari keterampilan baru, memajukan karir, dan mencapai tujuan pribadi dan profesional.</p>
+          <p class="text-muted">Kami percaya bahwa setiap orang berhak mendapatkan pendidikan dunia tingkat yang memadai, tanpa memandang lokasi, latar belakang, atau situasi keuangan.</p>
         </div>
       </div>
       <div class="col-md-6 scroll-animate delay-2">
@@ -56,9 +56,9 @@
           <div class="card-icon mb-3">
             <i class="bi bi-eye"></i>
           </div>
-          <h3 class="fw-bold mb-3">Our Vision</h3>
-          <p class="text-muted">To become the leading online learning platform that transforms lives through education. We envision a world where anyone can learn anything, anywhere, at any time.</p>
-          <p class="text-muted">By 2030, we aim to have helped over 1 million students achieve their learning objectives and unlock their full potential.</p>
+          <h3 class="fw-bold mb-3">Visi Kami</h3>
+          <p class="text-muted">Untuk menjadi platform pembelajaran online terkemuka yang mengubah hidup melalui pendidikan. Kami menggambarkan dunia di mana siapa saja dapat mempelajari apa saja, di mana saja, kapan saja.</p>
+          <p class="text-muted">Pada tahun 2030, kami bertujuan untuk telah membantu lebih dari 1 juta pelajar mencapai tujuan belajar dan membuka potensi penuh mereka.</p>
         </div>
       </div>
     </div>
@@ -69,8 +69,8 @@
 <section class="why-choose-about py-5">
   <div class="container">
     <div class="text-center mb-5 scroll-animate">
-      <h2 class="display-5 fw-bold mb-3">Why Choose LearnHub?</h2>
-      <p class="lead text-muted">We're committed to your success every step of the way</p>
+      <h2 class="display-5 fw-bold mb-3">Mengapa Memilih LearnHub?</h2>
+      <p class="lead text-muted">Kami berkomitmen untuk kesuksesan Anda setiap langkah perjalanan</p>
     </div>
     <div class="row g-4">
       <div class="col-md-4 scroll-animate delay-1">
@@ -78,7 +78,7 @@
           <div class="feature-icon mb-3">
             <i class="bi bi-people-fill"></i>
           </div>
-          <h5 class="fw-bold mb-3">Expert Instructors</h5>
+          <h5 class="fw-bold mb-3">Instruktur Profesional</h5>
           <p class="text-muted">Learn from industry professionals with years of real-world experience. Our instructors are carefully selected for their expertise and teaching ability.</p>
         </div>
       </div>
@@ -87,8 +87,8 @@
           <div class="feature-icon mb-3">
             <i class="bi bi-book-fill"></i>
           </div>
-          <h5 class="fw-bold mb-3">Comprehensive Content</h5>
-          <p class="text-muted">Our courses are designed to be comprehensive, practical, and up-to-date with the latest industry standards and best practices.</p>
+          <h5 class="fw-bold mb-3">Konten Komprehensif</h5>
+          <p class="text-muted">Kursus kami dirancang untuk komprehensif, praktis, dan sesuai dengan standar industri terkini dan praktik terbaik.</p>
         </div>
       </div>
       <div class="col-md-4 scroll-animate delay-3">
@@ -96,8 +96,8 @@
           <div class="feature-icon mb-3">
             <i class="bi bi-clock-history"></i>
           </div>
-          <h5 class="fw-bold mb-3">Lifetime Access</h5>
-          <p class="text-muted">Once you enroll, you get lifetime access to course materials, including all future updates and new content additions.</p>
+          <h5 class="fw-bold mb-3">Akses Selamanya</h5>
+          <p class="text-muted">Setelah Anda mendaftar, Anda mendapatkan akses selamanya ke materi kursus, termasuk semua pembaruan dan penambahan konten di masa depan.</p>
         </div>
       </div>
       <div class="col-md-4 scroll-animate delay-1">
@@ -105,8 +105,8 @@
           <div class="feature-icon mb-3">
             <i class="bi bi-headset"></i>
           </div>
-          <h5 class="fw-bold mb-3">24/7 Support</h5>
-          <p class="text-muted">Our dedicated support team is available around the clock to help you with any questions or issues you may encounter.</p>
+          <h5 class="fw-bold mb-3">Dukungan 24/7</h5>
+          <p class="text-muted">Tim dukungan kami siap membantu Anda dengan pertanyaan atau masalah yang mungkin Anda temui.</p>
         </div>
       </div>
       <div class="col-md-4 scroll-animate delay-2">
@@ -114,8 +114,8 @@
           <div class="feature-icon mb-3">
             <i class="bi bi-trophy-fill"></i>
           </div>
-          <h5 class="fw-bold mb-3">Certificates</h5>
-          <p class="text-muted">Earn industry-recognized certificates upon course completion that you can add to your resume and LinkedIn profile.</p>
+          <h5 class="fw-bold mb-3">Sertifikat</h5>
+          <p class="text-muted">Dapatkan sertifikat yang diakui industri setelah menyelesaikan kursus yang dapat Anda tambahkan ke CV dan profil LinkedIn Anda.</p>
         </div>
       </div>
       <div class="col-md-4 scroll-animate delay-3">
@@ -123,8 +123,8 @@
           <div class="feature-icon mb-3">
             <i class="bi bi-people"></i>
           </div>
-          <h5 class="fw-bold mb-3">Community</h5>
-          <p class="text-muted">Join a vibrant community of learners, share knowledge, collaborate on projects, and network with like-minded individuals.</p>
+          <h5 class="fw-bold mb-3">Komunitas</h5>
+          <p class="text-muted">Bergabunglah dengan komunitas pelajar yang aktif, berbagi pengetahuan, bekerja sama pada proyek, dan berhubungan dengan individu yang sama-sama tertarik pada hal yang sama.</p>
         </div>
       </div>
     </div>
@@ -135,8 +135,8 @@
 <section class="values-section py-5 bg-light">
   <div class="container">
     <div class="text-center mb-5 scroll-animate">
-      <h2 class="display-5 fw-bold mb-3">Our Core Values</h2>
-      <p class="lead text-muted">The principles that guide everything we do</p>
+      <h2 class="display-5 fw-bold mb-3">Nilai Inti Kami</h2>
+      <p class="lead text-muted">Prinsip-prinsip yang mengarahkan segala yang kami lakukan</p>
     </div>
     <div class="row g-4">
       <div class="col-lg-3 col-md-6 scroll-animate delay-1">
@@ -144,8 +144,8 @@
           <div class="value-icon">
             <i class="bi bi-heart-fill"></i>
           </div>
-          <h5 class="fw-bold mt-3 mb-2">Passion</h5>
-          <p class="text-muted small">We're passionate about education and helping others succeed.</p>
+          <h5 class="fw-bold mt-3 mb-2">Semangat</h5>
+          <p class="text-muted small">Kami bersemangat tentang pendidikan dan membantu orang lain mencapai kesuksesan.</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 scroll-animate delay-2">
@@ -153,8 +153,8 @@
           <div class="value-icon">
             <i class="bi bi-star-fill"></i>
           </div>
-          <h5 class="fw-bold mt-3 mb-2">Excellence</h5>
-          <p class="text-muted small">We strive for excellence in everything we create and deliver.</p>
+          <h5 class="fw-bold mt-3 mb-2">Ekselensi</h5>
+          <p class="text-muted small">Kami berusaha untuk ekselensi dalam segala yang kami ciptakan dan sampaikan.</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 scroll-animate delay-3">
@@ -162,8 +162,8 @@
           <div class="value-icon">
             <i class="bi bi-shield-check"></i>
           </div>
-          <h5 class="fw-bold mt-3 mb-2">Integrity</h5>
-          <p class="text-muted small">We operate with honesty, transparency, and ethical practices.</p>
+          <h5 class="fw-bold mt-3 mb-2">Integritas</h5>
+          <p class="text-muted small">Kami beroperasi dengan jujur, transparan, dan praktik etis.</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 scroll-animate delay-4">
@@ -171,8 +171,8 @@
           <div class="value-icon">
             <i class="bi bi-lightbulb-fill"></i>
           </div>
-          <h5 class="fw-bold mt-3 mb-2">Innovation</h5>
-          <p class="text-muted small">We continuously innovate to improve the learning experience.</p>
+          <h5 class="fw-bold mt-3 mb-2">Inovasi</h5>
+          <p class="text-muted small">Kami terus berinovasi untuk meningkatkan pengalaman belajar.</p>
         </div>
       </div>
     </div>
@@ -183,8 +183,8 @@
 <section class="team-section py-5">
   <div class="container">
     <div class="text-center mb-5 scroll-animate">
-      <h2 class="display-5 fw-bold mb-3">Meet Our Team</h2>
-      <p class="lead text-muted">The passionate people behind LearnHub</p>
+      <h2 class="display-5 fw-bold mb-3">Temui Tim Kami</h2>
+      <p class="lead text-muted">Orang-orang yang bersemangat di balik LearnHub</p>
     </div>
     <div class="row g-4">
       <div class="col-lg-4 col-md-6 scroll-animate delay-1">
@@ -192,9 +192,9 @@
           <div class="team-avatar mb-3">
             <div class="avatar-circle bg-primary">JD</div>
           </div>
-          <h5 class="fw-bold mb-1">John Doe</h5>
-          <p class="text-muted small mb-3">Founder & CEO</p>
-          <p class="text-muted small">10+ years in education technology. Passionate about making learning accessible to everyone.</p>
+          <h5 class="fw-bold mb-1">Gede Erik Aktama</h5>
+          <p class="text-muted small mb-3">Pemilik & CEO</p>
+          <p class="text-muted small">10+ tahun dalam teknologi pendidikan. Bersemangat tentang membuat pendidikan terjangkau bagi semua orang.</p>
           <div class="team-social mt-3">
             <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
             <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
@@ -207,9 +207,9 @@
           <div class="team-avatar mb-3">
             <div class="avatar-circle bg-success">SM</div>
           </div>
-          <h5 class="fw-bold mb-1">Sarah Mitchell</h5>
-          <p class="text-muted small mb-3">Head of Curriculum</p>
-          <p class="text-muted small">Former software engineer turned educator. Designs courses that bridge theory and practice.</p>
+          <h5 class="fw-bold mb-1">Jordan Immanuel</h5>
+          <p class="text-muted small mb-3">Kepala Kurikulum</p>
+          <p class="text-muted small">Seorang insinyur perangkat lunak yang menjadi pendidik. Merancang kursus yang menghubungkan teori dan praktik.</p>
           <div class="team-social mt-3">
             <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
             <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
@@ -222,9 +222,9 @@
           <div class="team-avatar mb-3">
             <div class="avatar-circle bg-danger">MJ</div>
           </div>
-          <h5 class="fw-bold mb-1">Michael Johnson</h5>
-          <p class="text-muted small mb-3">Lead Instructor</p>
-          <p class="text-muted small">Full-stack developer with expertise in modern web technologies. Makes complex topics simple.</p>
+          <h5 class="fw-bold mb-1">Claudio Mamahit</h5>
+          <p class="text-muted small mb-3">Instruktur Pimpinan</p>
+          <p class="text-muted small">Pengembang Full-stack dengan keahlian dalam teknologi web modern. Membuat topik kompleks menjadi sederhana.</p>
           <div class="team-social mt-3">
             <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
             <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
@@ -242,26 +242,26 @@
     <div class="row g-4 text-center">
       <div class="col-md-3 scroll-animate delay-1">
         <div class="stat-box">
-          <h2 class="display-3 fw-bold mb-2">10K+</h2>
-          <p class="mb-0">Happy Students</p>
+          <h2 class="display-3 fw-bold mb-2">800+</h2>
+          <p class="mb-0">Pelajar Puas</p>
         </div>
       </div>
       <div class="col-md-3 scroll-animate delay-2">
         <div class="stat-box">
-          <h2 class="display-3 fw-bold mb-2">50+</h2>
-          <p class="mb-0">Expert Courses</p>
+          <h2 class="display-3 fw-bold mb-2">20+</h2>
+          <p class="mb-0">Kursus Profesional</p>
         </div>
       </div>
       <div class="col-md-3 scroll-animate delay-3">
         <div class="stat-box">
           <h2 class="display-3 fw-bold mb-2">98%</h2>
-          <p class="mb-0">Success Rate</p>
+          <p class="mb-0">Tingkat Kesuksesan</p>
         </div>
       </div>
       <div class="col-md-3 scroll-animate delay-4">
         <div class="stat-box">
           <h2 class="display-3 fw-bold mb-2">24/7</h2>
-          <p class="mb-0">Support Available</p>
+          <p class="mb-0">Dukungan Tersedia</p>
         </div>
       </div>
     </div>
@@ -272,11 +272,11 @@
 <section class="cta-about py-5">
   <div class="container text-center">
     <div class="cta-content scroll-animate">
-      <h2 class="display-5 fw-bold mb-3">Ready to Start Learning?</h2>
-      <p class="lead mb-4">Join thousands of students who are already transforming their careers with LearnHub</p>
+      <h2 class="display-5 fw-bold mb-3">Siap Mulai Belajar?</h2>
+      <p class="lead mb-4">Bergabunglah dengan ribuan pelajar dan mulai perjalanan belajar Anda hari ini</p>
       <div class="cta-buttons">
-        <a href="/portfolio" class="btn btn-primary btn-lg me-2">Browse Courses</a>
-        <a href="/contact" class="btn btn-outline-primary btn-lg">Get in Touch</a>
+        <a href="/portfolio" class="btn btn-primary btn-lg me-2">Jelajahi Kursus</a>
+        <a href="/contact" class="btn btn-outline-primary btn-lg">Hubungi Kami</a>
       </div>
     </div>
   </div>
