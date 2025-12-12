@@ -1,27 +1,57 @@
 @extends('layout')
 
 @section('content')
-<div class="py-5" style="max-width:480px; margin:0 auto;">
-  <h3 class="mb-3 text-center">Admin Login</h3>
+<section class="admin-login-section py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-5">
+        <div class="login-card scroll-animate">
+          <div class="text-center mb-4">
+            <div class="admin-logo mb-3">
+              <div class="logo-circle">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+            </div>
+            <h2 class="fw-bold mb-2">Admin Login</h2>
+            <p class="text-muted">Enter your password to access the admin panel</p>
+          </div>
 
-  @if($errors->any())
-    <div class="alert alert-danger">
-      {{ $errors->first() }}
+          @if($errors->any())
+            <div class="alert alert-danger">
+              <i class="bi bi-exclamation-circle me-2"></i>{{ $errors->first() }}
+            </div>
+          @endif
+
+          <form method="POST" action="{{ route('admin.login.post') }}" id="adminLoginForm">
+            @csrf
+
+            <div class="mb-4">
+              <label class="form-label fw-bold">
+                <i class="bi bi-key me-2"></i>Password
+              </label>
+              <input 
+                name="password" 
+                type="password" 
+                class="form-control form-control-lg" 
+                required
+                placeholder="Enter admin password"
+                autofocus
+              >
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg w-100 mb-3">
+              <i class="bi bi-box-arrow-in-right me-2"></i>Login
+            </button>
+
+            <div class="text-center">
+              <a href="{{ url('/') }}" class="text-muted text-decoration-none">
+                <i class="bi bi-arrow-left me-1"></i>Back to website
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-  @endif
-
-  <form method="POST" action="{{ route('admin.login.post') }}">
-    @csrf
-
-    <div class="mb-3">
-      <label class="form-label">Password</label>
-      <input name="password" type="password" class="form-control" required>
-    </div>
-
-    <div class="d-flex justify-content-between align-items-center">
-      <button class="btn btn-primary">Login</button>
-      <a class="btn btn-link" href="{{ url('/') }}">Back to site</a>
-    </div>
-  </form>
-</div>
+  </div>
+</section>
 @endsection

@@ -24,7 +24,7 @@ class AdminAuthController extends Controller
             $request->session()->put('is_admin', true);
 
             // redirect to intended admin page
-            $intended = $request->session()->pull('admin_intended', url('/admin/projects'));
+            $intended = $request->session()->pull('admin_intended', route('admin.dashboard'));
             return redirect()->to($intended)->with('success', 'Logged in as admin.');
         }
 
