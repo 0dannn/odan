@@ -189,8 +189,8 @@
 <section class="testimonials py-5 bg-light">
   <div class="container">
     <div class="text-center mb-5">
-      <h2 class="display-5 fw-bold mb-3 scroll-animate">What Students Say</h2>
-      <p class="lead text-muted scroll-animate delay-1">Real feedback from our community</p>
+      <h2 class="display-5 fw-bold mb-3 scroll-animate">Apa yang Pelajar Katakan</h2>
+      <p class="lead text-muted scroll-animate delay-1">Umpan balik real dari komunitas kami</p>
     </div>
     <div class="row g-4">
       <div class="col-md-4">
@@ -203,7 +203,7 @@
               <i class="bi bi-star-fill text-warning"></i>
               <i class="bi bi-star-fill text-warning"></i>
             </div>
-            <p class="card-text">"This course completely changed my career path. The instructors are amazing and the content is top-notch. Highly recommended!"</p>
+            <p class="card-text">"Kursus ini benar-benar mengubah jalur karier saya. Instruktur sangat hebat dan materi sangat berkualitas. Sangat direkomendasikan!"</p>
             <div class="d-flex align-items-center mt-3">
               <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                 <span class="fw-bold">SM</span>
@@ -226,7 +226,7 @@
               <i class="bi bi-star-fill text-warning"></i>
               <i class="bi bi-star-fill text-warning"></i>
             </div>
-            <p class="card-text">"The best investment I've made in my education. The Laravel course helped me land a job at a top tech company. Thank you!"</p>
+            <p class="card-text">"Investasi terbaik yang pernah saya buat dalam pendidikan saya. Kursus Laravel membantu saya mendapatkan pekerjaan di perusahaan teknologi terkemuka. Terima kasih!"</p>
             <div class="d-flex align-items-center mt-3">
               <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                 <span class="fw-bold">JD</span>
@@ -249,7 +249,7 @@
               <i class="bi bi-star-fill text-warning"></i>
               <i class="bi bi-star-fill text-warning"></i>
             </div>
-            <p class="card-text">"Amazing course structure and excellent support. I learned React Native and published my first app within 3 months!"</p>
+            <p class="card-text">"Struktur kursus yang luar biasa dan dukungan yang sangat baik. Saya belajar React Native dan menerbitkan aplikasi pertama saya dalam 3 bulan!"</p>
             <div class="d-flex align-items-center mt-3">
               <div class="bg-danger text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                 <span class="fw-bold">EJ</span>
