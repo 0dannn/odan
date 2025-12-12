@@ -5,8 +5,8 @@
 <section class="contact-hero py-5 mb-5">
   <div class="container">
     <div class="text-center scroll-animate">
-      <h1 class="display-4 fw-bold mb-3">Get in Touch</h1>
-      <p class="lead text-muted">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+      <h1 class="display-4 fw-bold mb-3">Hubungi Kami</h1>
+      <p class="lead text-muted">Kami senang mendengar dari Anda. Kirimkan pesan kepada kami dan kami akan segera menanggapi.</p>
     </div>
   </div>
 </section>
@@ -18,8 +18,8 @@
       <!-- Contact Information -->
       <div class="col-lg-4">
         <div class="contact-info-card scroll-animate delay-1">
-          <h3 class="fw-bold mb-4">Contact Information</h3>
-          <p class="text-muted mb-4">Feel free to reach out to us through any of these channels. We're here to help!</p>
+          <h3 class="fw-bold mb-4">Informasi Kontak</h3>
+          <p class="text-muted mb-4">Silakan hubungi kami melalui salah satu saluran berikut. Kami siap membantu!</p>
           
           <div class="contact-items">
             <div class="contact-item mb-4">
@@ -51,8 +51,8 @@
                 <i class="bi bi-geo-alt-fill"></i>
               </div>
               <div class="contact-details">
-                <h6 class="fw-bold mb-1">Address</h6>
-                <p class="text-muted mb-0">123 Education Street<br>Jakarta 12345<br>Indonesia</p>
+                <h6 class="fw-bold mb-1">Alamat</h6>
+                <p class="text-muted mb-0">Jl. Raya Ubud No. 123<br>Denpasar 80222<br>Indonesia</p>
               </div>
             </div>
 
@@ -61,7 +61,7 @@
                 <i class="bi bi-clock-fill"></i>
               </div>
               <div class="contact-details">
-                <h6 class="fw-bold mb-1">Office Hours</h6>
+                <h6 class="fw-bold mb-1">Jam Kerja</h6>
                 <p class="text-muted mb-0">
                   Monday - Friday: 9:00 AM - 6:00 PM<br>
                   Saturday: 10:00 AM - 4:00 PM<br>
@@ -73,7 +73,7 @@
 
           <!-- Social Media -->
           <div class="social-media mt-5 pt-4 border-top">
-            <h6 class="fw-bold mb-3">Follow Us</h6>
+            <h6 class="fw-bold mb-3">Ikuti Kami</h6>
             <div class="social-links">
               <a href="#" class="social-link" title="Facebook">
                 <i class="bi bi-facebook"></i>
@@ -98,7 +98,7 @@
       <!-- Contact Form -->
       <div class="col-lg-8">
         <div class="contact-form-card scroll-animate delay-2">
-          <h3 class="fw-bold mb-4">Send us a Message</h3>
+          <h3 class="fw-bold mb-4">Kirimkan Pesan kepada Kami</h3>
           
           @if(session('success'))
             <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -112,7 +112,7 @@
 
             <div class="col-md-6">
               <label class="form-label fw-bold">
-                Full Name <span class="text-danger">*</span>
+                Nama Lengkap <span class="text-danger">*</span>
               </label>
               <input 
                 type="text" 
@@ -129,7 +129,7 @@
 
             <div class="col-md-6">
               <label class="form-label fw-bold">
-                Email Address <span class="text-danger">*</span>
+                Alamat Email <span class="text-danger">*</span>
               </label>
               <input 
                 type="email" 
@@ -146,23 +146,23 @@
 
             <div class="col-md-6">
               <label class="form-label fw-bold">
-                Subject <span class="text-muted">(Optional)</span>
+                  Subjek <span class="text-muted">(Opsional)</span>
               </label>
               <select name="subject" class="form-select form-select-lg">
-                <option value="">Select a subject...</option>
-                <option value="general">General Inquiry</option>
-                <option value="course">Course Information</option>
-                <option value="enrollment">Enrollment Support</option>
-                <option value="payment">Payment Issue</option>
-                <option value="technical">Technical Support</option>
-                <option value="feedback">Feedback</option>
-                <option value="other">Other</option>
+                <option value="">Pilih subjek...</option>
+                <option value="general">Pesan Umum</option>
+                <option value="course">Informasi Kursus</option>
+                <option value="enrollment">Dukungan Pendaftaran</option>
+                <option value="payment">Masalah Pembayaran</option>
+                <option value="technical">Dukungan Teknis</option>
+                <option value="feedback">Umpan Balik</option>
+                <option value="other">Lainnya</option>
               </select>
             </div>
 
             <div class="col-md-6">
               <label class="form-label fw-bold">
-                Phone Number <span class="text-muted">(Optional)</span>
+                Nomor Telepon <span class="text-muted">(Opsional)</span>
               </label>
               <input 
                 type="tel" 
@@ -175,16 +175,16 @@
 
             <div class="col-12">
               <label class="form-label fw-bold">
-                Message <span class="text-danger">*</span>
+                Pesan <span class="text-danger">*</span>
               </label>
               <textarea 
                 name="message" 
                 class="form-control" 
                 rows="6" 
                 required
-                placeholder="Tell us how we can help you..."
+                placeholder="Beritahu kami bagaimana kami dapat membantu Anda..."
               >{{ old('message') }}</textarea>
-              <small class="text-muted">Maximum 2000 characters</small>
+              <small class="text-muted">Maksimal 2000 karakter</small>
               @error('message')
                 <div class="text-danger small mt-1">{{ $message }}</div>
               @enderror
@@ -194,7 +194,7 @@
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="privacy" required>
                 <label class="form-check-label" for="privacy">
-                  I agree to the <a href="#" class="text-primary">Privacy Policy</a> and consent to being contacted.
+                  Saya setuju dengan <a href="#" class="text-primary">Kebijakan Privasi</a> dan menyetujui untuk dihubungi.
                 </label>
               </div>
             </div>
@@ -202,11 +202,11 @@
             <div class="col-12">
               <button type="submit" class="btn btn-primary btn-lg px-5 contact-submit">
                 <span class="submit-text">
-                  <i class="bi bi-send me-2"></i>Send Message
+                  <i class="bi bi-send me-2"></i>Kirim Pesan
                 </span>
                 <span class="submit-loader d-none">
                   <span class="spinner-border spinner-border-sm me-2"></span>
-                  Sending...
+                  Mengirim...
                 </span>
               </button>
             </div>
@@ -221,44 +221,44 @@
 <section class="faq-section py-5 bg-light">
   <div class="container">
     <div class="text-center mb-5 scroll-animate">
-      <h2 class="display-5 fw-bold mb-3">Frequently Asked Questions</h2>
-      <p class="lead text-muted">Quick answers to common questions</p>
+      <h2 class="display-5 fw-bold mb-3">Pertanyaan yang Sering Diajukan</h2>
+      <p class="lead text-muted">Jawaban cepat untuk pertanyaan umum</p>
     </div>
     <div class="row g-4">
       <div class="col-md-6 scroll-animate delay-1">
         <div class="faq-card">
           <h5 class="fw-bold mb-2">
             <i class="bi bi-question-circle text-primary me-2"></i>
-            How do I enroll in a course?
+            Bagaimana cara mendaftar di kursus?
           </h5>
-          <p class="text-muted mb-0">Simply browse our courses, select the one you're interested in, and click "Enroll Now". Follow the enrollment process to complete your registration.</p>
+          <p class="text-muted mb-0">Cukup jelajahi kursus kami, pilih yang Anda inginkan, dan klik "Daftar Sekarang". Ikuti proses pendaftaran untuk menyelesaikan pendaftaran Anda.</p>
         </div>
       </div>
       <div class="col-md-6 scroll-animate delay-2">
         <div class="faq-card">
           <h5 class="fw-bold mb-2">
             <i class="bi bi-question-circle text-primary me-2"></i>
-            What payment methods do you accept?
+            Metode pembayaran apa yang Anda terima?
           </h5>
-          <p class="text-muted mb-0">We accept credit/debit cards, PayPal, bank transfers, and Dana. All payments are processed securely through our payment gateway.</p>
+          <p class="text-muted mb-0">Kami menerima kartu kredit/debit, PayPal, transfer bank, dan Dana. Semua pembayaran diproses dengan aman melalui pintu gerbang pembayaran kami.</p>
         </div>
       </div>
       <div class="col-md-6 scroll-animate delay-3">
         <div class="faq-card">
           <h5 class="fw-bold mb-2">
             <i class="bi bi-question-circle text-primary me-2"></i>
-            Do I get a certificate after completion?
+            Apakah saya mendapatkan sertifikat setelah selesai?
           </h5>
-          <p class="text-muted mb-0">Yes! Upon successful completion of any course, you'll receive a certificate of completion that you can add to your resume and LinkedIn profile.</p>
+          <p class="text-muted mb-0">Ya! Setelah berhasil menyelesaikan kursus apa pun, Anda akan menerima sertifikat penyelesaian yang dapat Anda tambahkan ke CV dan profil LinkedIn Anda.</p>
         </div>
       </div>
       <div class="col-md-6 scroll-animate delay-4">
         <div class="faq-card">
           <h5 class="fw-bold mb-2">
             <i class="bi bi-question-circle text-primary me-2"></i>
-            Can I get a refund?
+            Apakah saya dapat mendapatkan pengembalian uang?
           </h5>
-          <p class="text-muted mb-0">We offer a 30-day money-back guarantee. If you're not satisfied with your course, contact us within 30 days for a full refund.</p>
+          <p class="text-muted mb-0">Kami menawarkan garansi pengembalian uang 30 hari. Jika Anda tidak puas dengan kursus Anda, hubungi kami dalam 30 hari untuk pengembalian uang penuh.</p>
         </div>
       </div>
     </div>

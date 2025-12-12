@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ $title ?? 'LearnHub - Online Learning Platform' }}</title>
+    <title>{{ $title ?? 'AktaMind - Online Learning Platform' }}</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -11,7 +11,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
   <div class="container">
-    <a class="navbar-brand" href="/">LearnHub</a>
+    <a class="navbar-brand" href="/">AktaMind</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
             aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
           <a class="nav-link" href="{{ url('/about') }}">Tentang Kami</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
+          <a class="nav-link" href="{{ url('/contact') }}">Kontak</a>
         </li>
 
         @if(session('is_admin'))
@@ -75,7 +75,7 @@
 
 <footer class="mt-5 py-4">
   <div class="container text-center">
-    <small>&copy; {{ date('Y') }} LearnHub. All rights reserved.</small>
+    <small>&copy; {{ date('Y') }} AktaMind. All rights reserved.</small>
   </div>
 </footer>
 </body>
