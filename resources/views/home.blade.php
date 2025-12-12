@@ -269,10 +269,10 @@
 <!-- CTA Section -->
 <section class="cta-section py-5 bg-primary text-white">
   <div class="container text-center">
-    <h2 class="display-5 fw-bold mb-3 scroll-animate">Ready to Start Learning?</h2>
-    <p class="lead mb-4 scroll-animate delay-1">Join thousands of students and start your journey today</p>
+    <h2 class="display-5 fw-bold mb-3 scroll-animate">Siap Mulai Belajar?</h2>
+    <p class="lead mb-4 scroll-animate delay-1">Bergabunglah dengan ribuan pelajar dan mulai perjalanan belajar Anda hari ini</p>
     <div class="scroll-animate delay-2">
-      <a href="/contact" class="btn btn-light btn-lg me-2">Get Started</a>
+      <a href="/contact" class="btn btn-light btn-lg me-2">Mulai Belajar</a>
       <a href="/portfolio" class="btn btn-outline-light btn-lg">Jelajahi Kursus</a>
     </div>
   </div>
